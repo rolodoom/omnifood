@@ -1,0 +1,76 @@
+/*
+
+--- 01 Typography System
+
+- Font sizes:
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weigths:
+Default: 400
+Meidum: 500
+Semi-bold:600
+Bold: 700
+
+- Line heights:
+Default: 1
+Small: 1.05
+Medium: 1.2
+Paragraph default: 1.6
+Large: 1.8
+
+- Letter spacing:
+-0.5px
+0.75px
+
+
+--- 02 Colors
+
+- Primary: #e67e22
+- Tints: #fdf2e9 #fae5d3 #eb984e
+- Shades: #cf711f #45260a #2e1907
+- Accents: 
+- Greys: 
+#333
+#555
+#767676 (Lightest grey allowed on #fff)
+#6f6f6f (Lightest grey allowed on #fdf2e9)
+#888
+#aaa
+- Otros // Meal tags
+#51cf66
+#94d82d
+#ffd43b
+
+--- 03 Images
+- Image from Unsplash
+- UI Faces
+
+--- 04 Icons
+Nothing yet
+
+--- 05 Shadows
+Nothing yet
+box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+box-shadow: 0 1.2rem 3.2rem rgba(#000, 0.05);
+
+--- 06 Border radius
+Default: 9px
+11px
+
+--- 07 White space - Spacing System (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
+@import "./base";
+@import "./layout";
+@import "./header";
+@import "./hero";
+@import "./featured";
+@import "./how";
+@import "./meals";
+@import "./testimonials";
+@import "./pricing";
+@import "./cta";
+@import "./footer";
+@import "./responsive";
