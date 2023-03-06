@@ -1,10 +1,14 @@
 # Omnifood
 
-[Omnifood](https://github.com/rolodoom/musicband) is a one page site for a food app startup built following the code from [Build Responsive Real-World Websites with HTML and CSS](https://udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3).
+[Omnifood](https://github.com/rolodoom/musicband) is a one page site for a food app startup built following the code from [Build Responsive Real-World Websites with HTML and CSS](https://udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3) by [Jonas Schmedtmann](https://codingheroes.io/).
 
 ## Preview
 
 ![Omnifood Preview](img/screenshot.jpg)
+
+## Status
+
+[![GitHub license](https://img.shields.io/badge/license-GPL--3.0-blue)](https://raw.githubusercontent.com/rolodoom/omnifood/master/LICENSE)
 
 ## Usage
 
@@ -27,3 +31,7 @@ You must have npm installed in order to use this build environment.
 ## Bugs and Issues
 
 Have a bug or an issue with this template? [Open a new issue](https://github.com/rolodoom/monifood/issues) here on GitHub.
+
+## About
+
+This code is released under the [GPL-3.0 license](https://raw.githubusercontent.com/rolodoom/omnifood/master/LICENSE), which means you have the four freedoms to run, study, share, and modify the software. Any derivative work must be distributed under the same or equivalent license terms.
