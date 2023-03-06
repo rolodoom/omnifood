@@ -6,6 +6,8 @@
 
 ![Omnifood Preview](img/screenshot.jpg)
 
+**[View Live Preview](https://omnifood-rolodoom.netlify.app/)**
+
 ## Status
 
 [![GitHub license](https://img.shields.io/badge/license-GPL--3.0-blue)](https://raw.githubusercontent.com/rolodoom/omnifood/master/LICENSE)
