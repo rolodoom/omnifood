@@ -4,7 +4,7 @@
 
 ## Preview
 
-![Omnifood Preview](img/screenshot.jpg)
+[![Omnifood Preview](img/screenshot.jpg)](https://omnifood-rolodoom.netlify.app/)
 
 **[View Live Preview](https://omnifood-rolodoom.netlify.app/)**
 
