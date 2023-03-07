@@ -34,6 +34,6 @@ You must have npm installed in order to use this build environment.
 
 Have a bug or an issue with this template? [Open a new issue](https://github.com/rolodoom/monifood/issues) here on GitHub.
 
-## About
+## License
 
-This code is released under the [GPL-3.0 license](https://raw.githubusercontent.com/rolodoom/omnifood/master/LICENSE), which means you have the four freedoms to run, study, share, and modify the software. Any derivative work must be distributed under the same or equivalent license terms.
+This code is released under the [GPL-3.0](https://raw.githubusercontent.com/rolodoom/omnifood/master/LICENSE) license, which means you have the four freedoms to run, study, share, and modify the software. Any derivative work must be distributed under the same or equivalent license terms.
