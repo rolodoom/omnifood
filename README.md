@@ -2,15 +2,16 @@
 
 [Omnifood](https://github.com/rolodoom/musicband) is a one page site for a food app startup built following the code from [Build Responsive Real-World Websites with HTML and CSS](https://udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3) by [Jonas Schmedtmann](https://codingheroes.io/).
 
+## Status
+
+[![GitHub license](https://img.shields.io/badge/license-GPL--3.0-blue)](https://raw.githubusercontent.com/rolodoom/omnifood/master/LICENSE)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/31b495b9-bc80-4591-97b1-7716a5853139/deploy-status)](https://app.netlify.com/sites/omnifood-rolodoom/deploys)
+
 ## Preview
 
 [![Omnifood Preview](img/screenshot.jpg)](https://omnifood-rolodoom.netlify.app/)
 
 **[View Live Preview](https://omnifood-rolodoom.netlify.app/)**
-
-## Status
-
-[![GitHub license](https://img.shields.io/badge/license-GPL--3.0-blue)](https://raw.githubusercontent.com/rolodoom/omnifood/master/LICENSE)
 
 ## Usage
 
