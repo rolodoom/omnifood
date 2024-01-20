@@ -1,6 +1,6 @@
 # Omnifood
 
-[Omnifood](https://github.com/rolodoom/musicband) is a one page site for a food app startup built following the code from [Build Responsive Real-World Websites with HTML and CSS](https://udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3) by [Jonas Schmedtmann](https://codingheroes.io/).
+[Omnifood](https://github.com/rolodoom/omnifood) is a one page site for a food app startup built following the code from [Build Responsive Real-World Websites with HTML and CSS](https://udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3) by [Jonas Schmedtmann](https://codingheroes.io/).
 
 ## Status
 
