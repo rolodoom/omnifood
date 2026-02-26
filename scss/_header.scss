@@ -1,0 +1,188 @@
+/*********************
+* HEADER
+*********************/
+
+.sticky {
+  .header {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 8rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgba(#fff, 0.97);
+    z-index: 999;
+    box-shadow: 0 1.2rem 3.2rem rgba(#000, 0.05);
+  }
+
+  .section-hero {
+    margin-top: 9.6rem;
+  }
+}
+
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fdf2e9;
+
+  height: 9.6rem; // Needed for sticky
+  padding: 0 4.8rem;
+
+  &__logo {
+    img {
+      height: 2.2rem;
+    }
+  }
+
+  .main-nav {
+    &__list {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      gap: 4.8rem;
+    }
+
+    &__link {
+      &:link,
+      &:visited {
+        color: #333;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 1.8rem;
+        display: inline-block;
+      }
+      &:hover,
+      &:active {
+        color: #e67e22;
+        text-decoration: none;
+      }
+
+      &--cta {
+        &:link,
+        &:visited {
+          color: #fff;
+          background-color: #e67e22;
+          padding: 1.2rem 2.4rem;
+          border-radius: 9px;
+        }
+        &:hover,
+        &:active {
+          background-color: #cf711f;
+        }
+      }
+    }
+  }
+
+  .btn-mobile-nav {
+    border: none;
+    background-color: none;
+    cursor: pointer;
+    display: none;
+
+    &__icon {
+      width: 4.8rem;
+      height: 4.8rem;
+      color: #333;
+
+      &[name="close-outline"] {
+        display: none;
+      }
+    }
+  }
+}
+
+// RESPONSIVE
+
+/* Below 1200px (Landscape Tablets) */
+@media screen and (max-width: 75em) {
+  .header {
+    padding: 0 3.2rem;
+
+    .main-nav {
+      &__list {
+        gap: 3.2rem;
+      }
+    }
+  }
+}
+
+/* Below 944px (Tablets) */
+@media screen and (max-width: 59em) {
+  .header {
+    .main-nav {
+      position: fixed;
+      background-color: rgba(#fff, 0.6);
+
+      backdrop-filter: blur(10px);
+
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      transform: translateX(100%);
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      transition: all 0.5s ease-out;
+
+      /* 1) Hide it visually */
+      opacity: 0;
+
+      /* 1) Make it unaccesible to mpuse and keyboard */
+      pointer-events: none;
+
+      /* 3) Hide it from screen-readers */
+      visibility: hidden;
+
+      &__list {
+        flex-direction: column;
+        gap: 4.8rem;
+      }
+
+      &__link {
+        &:link,
+        &:visited {
+          font-size: 3rem;
+        }
+
+        &--cta {
+          &:link,
+          &:visited {
+            padding: 1.6rem 3.2rem;
+          }
+        }
+      }
+    }
+
+    .btn-mobile-nav {
+      background-color: transparent;
+      display: block;
+      z-index: 1000;
+    }
+
+    &.nav-open {
+      .main-nav {
+        opacity: 1;
+        pointer-events: auto;
+        visibility: visible;
+        transform: translateX(0);
+        z-index: 999;
+      }
+      .btn-mobile-nav {
+        &__icon {
+          &[name="close-outline"] {
+            display: block;
+          }
+          &[name="menu-outline"] {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

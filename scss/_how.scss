@@ -1,0 +1,66 @@
+/***********************
+* HOW IT WORKS SECTION
+***********************/
+
+.section-how {
+  padding: 9.6rem 0;
+
+  // div > div {
+  //   padding: 11rem 2rem;
+  //   font-size: 5rem;
+  //   text-align: center;
+  //   background-color: #e67e22;
+  // }
+
+  .step {
+    &__number {
+      font-size: 8.6rem;
+      font-weight: 600;
+      color: #ddd;
+      margin-bottom: 1.2rem;
+    }
+
+    &__description {
+      font-size: 1.8rem;
+      line-height: 1.8;
+    }
+
+    // &__text-box {
+    // }
+
+    &__img-box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+
+      &::before,
+      &::after {
+        display: block;
+        content: "";
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      &::before {
+        width: 60%;
+        padding-bottom: 60%; // % of parent width
+        background-color: #fdf2e9;
+        z-index: -2;
+      }
+      &::after {
+        width: 45%;
+        padding-bottom: 45%; // % of parent width
+        background-color: #fae5d3;
+        z-index: -1;
+      }
+    }
+
+    &__img {
+      width: 35%;
+    }
+  }
+}

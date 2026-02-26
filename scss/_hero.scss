@@ -1,0 +1,55 @@
+/*********************
+* HERO SECTION
+*********************/
+
+.section-hero {
+  background-color: #fdf2e9;
+  padding: 4.8rem 0 9.6rem 0;
+
+  .hero {
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 9.6rem;
+    align-items: center;
+
+    // &__text-box {
+    // }
+
+    &__description {
+      font-size: 2rem;
+      line-height: 1.6;
+      margin-bottom: 4.8rem;
+    }
+    // &__img-box {
+    // }
+    &__img {
+      max-width: 100%;
+    }
+
+    &__delivered-meals {
+      margin-top: 8rem;
+      display: flex;
+      gap: 1.6rem;
+      align-items: center;
+    }
+    &__delivered-imgs {
+      display: flex;
+      img {
+        border-radius: 50%;
+        width: 4.8rem;
+        height: 4.8rem;
+        border: 3px solid #fdf2e9;
+        &:not(:first-child) {
+          margin-left: -1.6rem;
+        }
+      }
+    }
+    &__delivered-text {
+      font-size: 1.8rem;
+      font-weight: 500;
+    }
+  }
+}

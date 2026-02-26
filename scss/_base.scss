@@ -1,0 +1,219 @@
+/*********************
+* Base
+*********************/
+
+// Reset
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 1rem = 10px, 10px/16px = 62.5%
+  overflow-x: hidden;
+
+  scroll-behavior: smooth; // Does not work on Safari
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  color: #333;
+  font-size: 1.6rem;
+  line-height: 1;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(#e67e22, 0.5);
+}
+
+/*********************
+* Typography
+*********************/
+
+strong {
+  font-weight: 500;
+}
+
+.link {
+  &:link,
+  &:visited {
+    color: #e67e22;
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+    padding-bottom: 2px;
+    display: inline-block;
+  }
+  &:hover,
+  &:active {
+    color: #cf711f;
+    border-color: transparent;
+  }
+}
+
+.heading {
+  &-primary,
+  &-secondary {
+    font-weight: 700;
+    color: #333;
+    letter-spacing: -0.5px;
+  }
+
+  &-primary {
+    font-size: 5.2rem;
+    line-height: 1.05;
+    margin-bottom: 3.2rem;
+  }
+
+  &-secondary {
+    font-size: 4.4rem;
+    line-height: 1.2;
+    margin-bottom: 9.6rem;
+  }
+
+  &-tertiary {
+    font-size: 3rem;
+    line-height: 1.2;
+    margin-bottom: 3.2rem;
+  }
+}
+
+.subheading {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #cf711f;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
+}
+
+.line-trough {
+  text-decoration: line-through;
+}
+
+/*********************
+* Buttons & Links
+*********************/
+
+a,
+button {
+  &,
+  &:link,
+  &:visited {
+    transition: all 0.3s ease;
+  }
+}
+
+.btn {
+  &,
+  &:link,
+  &:visited {
+    display: inline-block;
+    padding: 1.2rem 2.4rem;
+    text-decoration: none;
+    border-radius: 9px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+  }
+
+  &--lg {
+    &,
+    &:link,
+    &:visited {
+      font-size: 2rem;
+      padding: 1.6rem 3.2rem;
+    }
+  }
+
+  &--full {
+    &,
+    &:link,
+    &:visited {
+      color: white;
+      background-color: #e67e22;
+    }
+    &:active,
+    &:hover {
+      background-color: #cf711f;
+    }
+  }
+
+  &--outline {
+    &,
+    &:link,
+    &:visited {
+      background-color: #fff;
+      color: #555;
+    }
+    &:active,
+    &:hover {
+      box-shadow: inset 0 0 0 3px #fff;
+      background-color: transparent;
+    }
+  }
+
+  &--form {
+    &,
+    &:link,
+    &:visited {
+      background-color: #45260a;
+      color: #fdf2e9;
+      padding: 1.2rem;
+    }
+    &:active,
+    &:hover {
+      color: #555;
+      background-color: #fff;
+    }
+  }
+}
+
+/*********************
+* Utilities - Helpers
+*********************/
+.mr-sm {
+  margin-right: 1.6rem !important;
+}
+.mb-md {
+  margin-bottom: 4.8rem !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/*********************
+* Lists
+*********************/
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+
+  &__item {
+    font-size: 1.8rem;
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+  }
+
+  &__icon {
+    font-size: 3rem;
+    color: #e67e22;
+  }
+}
