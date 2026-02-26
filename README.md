@@ -5,7 +5,7 @@
 ## Status
 
 [![GitHub license](https://img.shields.io/badge/license-GPL--3.0-blue)](https://raw.githubusercontent.com/rolodoom/omnifood/master/LICENSE)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/31b495b9-bc80-4591-97b1-7716a5853139/deploy-status)](https://app.netlify.com/sites/omnifood-rolodoom/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bd18af79-2f48-4f15-98df-dc07d7bab33e/deploy-status)](https://app.netlify.com/projects/omnifood-rolodoom/deploys)
 
 ## Preview
 
